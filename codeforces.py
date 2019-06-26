@@ -40,7 +40,6 @@ class Contest(Codeforces):
         self.makeFolders()
         self.makeCppFiles()
         self.makeInputFiles()
-        
         os.chdir(self.contestId)
         os.system("bash")
 
